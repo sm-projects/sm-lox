@@ -16,4 +16,18 @@ Implementing an interpreter for Lox language. Mainly taken from Bob Nystrom wond
 ---
 
 ## Introduction
+
 ## The Lox Language
+```
+expression → literal
+           | unary
+           | binary
+           | grouping ;
+
+literal    → NUMBER | STRING | "true" | "false" | "nil" ;
+grouping   → "(" expression ")" ;
+unary      → ( "-" | "!" ) expression ;
+binary     → expression operator expression ;
+operator   → "==" | "!=" | "<" | "<=" | ">" | ">="
+           | "+"  | "-"  | "*" | "/" ;
+```
