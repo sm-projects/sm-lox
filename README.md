@@ -1,5 +1,7 @@
 # sm-lox
-Implementing an interpreter for Lox language. Mainly taken from Bob Nystrom wonderful online book called [Crafting Compilers](http://craftinginterpreters.com/)
+
+Implementing an interpreter for Lox language. Mainly taken from Bob Nystrom wonderful online book called [Crafting Compilers](http://craftinginterpreters.com/).
+I started off, following the code and design used in the book and then deviated from it in order to incorporate my own design choices and also to learn and use tools such as Yacc and [Atllr](http://www.antlr.org/)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -31,3 +33,5 @@ binary     → expression operator expression ;
 operator   → "==" | "!=" | "<" | "<=" | ">" | ">="
            | "+"  | "-"  | "*" | "/" ;
 ```
+## Resources
+1. [AntLr Mega Tutorial](https://tomassetti.me/antlr-mega-tutorial/)
